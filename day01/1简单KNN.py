@@ -13,8 +13,7 @@ knn = KNeighborsClassifier(n_neighbors=3)
 knn.fit(x_train, y_train)
 
 # 随机数据用于测试
-Test_data = [[185, 76, 45], [156, 43, 35]]
+Test_data = [[185, 46, 45], [156, 43, 35], [186, 63, 41]]
 
 # 展示预测结果
 print(knn.predict(Test_data))
-print("Hell W")
